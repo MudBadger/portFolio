@@ -23,6 +23,13 @@ header {
     justify-content: space-around;
     margin-left: 50%;
     color: #e5f7f9;
+    text-shadow: 3px 3px 0 #4c6c7e;
+    font-size: 16pt;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #e5f7f9;
 }
 
 .menu p {
@@ -30,7 +37,7 @@ header {
     border-style: solid;
     border-width: 5px;
     border-color: #e5f7f9;
-    border-radius: 50%;
+    border-radius: 5%;
     box-shadow: 3px 3px 0 #4c6c7e;
 }
 
@@ -225,12 +232,18 @@ header {
 
 #projets p{
     color: #444c54;
+    padding-left: 10px;
 }
 
 
 #projet1 {
-    margin: 20% 15%;
-    text-align: center;
+    margin: 5% 8%;
+    display: flex;
+    align-items: center;
+}
+
+.imageProjet {
+    max-width: 150px;
 }
 
 
@@ -241,4 +254,9 @@ footer {
 footer h2 {
     color: #e5f7f9;
     margin: 0 15% 0 5%;
+}
+
+#mentionsLegales {
+    color: #e5f7f9;
+    text-align: end;
 }
