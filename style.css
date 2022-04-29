@@ -69,6 +69,10 @@ header {
     font-size: 14pt;
 }
 
+#infoTexte p {
+    text-indent: 10%;
+}
+
 #devPhoto {
     max-width: 500px;
     border-radius: 5%;
@@ -267,6 +271,33 @@ footer h2 {
     color: #e5f7f9;
     margin: 0 15% 0 5%;
 }
+
+#contactListe{
+    display: flex;
+    flex-direction: row;
+    color: #e5f7f9;
+    font-size: 14pt;
+    justify-content: space-evenly;
+}
+
+#contactListe img {
+    max-width: 100px;
+}
+
+#gitHub {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
 
 #mentionsLegales {
     color: #e5f7f9;
