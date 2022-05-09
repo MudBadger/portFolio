@@ -95,7 +95,7 @@
     }
         
     #jsLogo img {
-        width: 80%;
+        width: 70%;
         display: flex;
         align-items: center;
         margin: 0;
@@ -156,27 +156,19 @@
         font-size: 1em;
         margin-bottom: 3%;
     }
+    #contactListe {
+        display: flex;
+        flex-direction: row;
+        font-size: 0.7em;;
+        justify-content: space-around;
+        margin-left: 5%;
+    }
 
     #contactListe img {
         width: 70%;
     }
 
-    #contactListe {
-        font-size: 0.7em;;
-    }
-
     #mentionsLegales {
         font-size: 0.7em;
     }
-
-
-
-    
-    
-    
-
-
-    
-
-
 }
