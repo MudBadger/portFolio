@@ -303,6 +303,15 @@ footer h2 {
     align-items: center;
 }
 
+#email a  {
+    text-decoration: none;
+    color: #e5f7f9;
+}
+
+#email a:hover {
+    color: #444c54;
+}
+
 
 #mentionsLegales {
     color: #e5f7f9;
