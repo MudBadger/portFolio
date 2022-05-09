@@ -1,0 +1,112 @@
+@media (min-width:320px) and (max-width:767px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 0.7em;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #infoTexte {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        font-size: 0.7em;
+        margin: 5% 10%;
+    }
+
+    #devPhoto {
+        max-width: 100%;
+        border-radius: 5%;
+        box-shadow: 8px 8px 0px #4c6c7e;
+        margin-right: 5% 15%;
+    }
+
+        
+    #javascript {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+        
+    #jsTitre {
+         font-size: 0.7em;
+         margin: 0 3%;
+    }
+        
+    #jsListe {
+        margin: 5% 0 8% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    } 
+        
+    #jsListe li {
+        margin-bottom: 10%;
+        font-size: 0.7em;
+    }
+        
+    #jsLogo img {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    #jsComp {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+        
+    .emptyBox {
+        margin: 0;
+        padding: 0;
+    }
+        
+        
+    #cms {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+        
+    #cmsTitre {
+        margin: 0 3%;
+        font-size: 0.7em;
+    }
+        
+    #cmsListe {
+        margin: 5% 0 8% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+        
+    #cmsListe li {
+        margin-bottom: 10%;
+        font-size: 0.7em;
+    }
+        
+    #cmsLogo img {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    #cmsComp {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+}
