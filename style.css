@@ -32,6 +32,10 @@ header {
     color: #e5f7f9;
 }
 
+a:hover {
+    color: #444c54;
+}
+
 .menu p {
     padding: 2%;
     border-style: solid;
