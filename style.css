@@ -47,8 +47,9 @@ header {
     justify-content: flex-end;
     margin: 0 6%;
     padding-top: 5%;
-    font-size: 24pt;
+    font-size: 2em;
     color: #e5f7f9;
+    font-family: 'Righteous', monospace;
     text-shadow: 3px 3px 0 #4c6c7e ;
 }
 
