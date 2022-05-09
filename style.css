@@ -6,6 +6,10 @@ body {
     background-color: #e5f7f9;
 }
 
+h1, h2, p, li {
+    font-family: 'Righteous';
+}
+
 #info {
     display: flex;
     flex-direction: row;
@@ -25,6 +29,7 @@ body {
 
 #infoTexte p {
     text-indent: 10%;
+    font-family: monospace;
 }
 
 #devPhoto {
@@ -223,3 +228,4 @@ body {
 .imageProjet {
     max-width: 150px;
 }
+
