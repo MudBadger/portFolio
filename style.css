@@ -103,22 +103,33 @@ body {
     font-size: 14pt;
 }
 
-#jsBox {
+#jsCms {
+    flex: 1;
     display: flex;
     flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-bottom: 5px;
 }
 
 #javascript {
     display: flex;
     flex-direction: row;
     background-color: #4c6c7e;
-    padding-right: 5%;
-    margin: 0;
+    padding-right: 50px;
+    margin-right: 100px;
+    height: 100%;
 }
 
 #jsTitre {
     margin-left: 15%;
     color: #e5f7f9;
+}
+
+#jsComp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #jsListe {
@@ -141,32 +152,27 @@ body {
     margin: 15% 0;
 }
 
-.emptyBox {
-    background-color: #e5f7f9;
-    display: flex;
-    margin: 0 50%;
- }
-
- #cmsBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-grow: 1 1;
-}
 
  #cms {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    flex-wrap: nowrap;
     background-color: #4c6c7e;
-    padding-left: 10%;
+    padding-left: 50px;
+    margin-left: 100px;
+    height: 100%;
  }
 
  #cmsTitre {
-    margin: 0% 0% 0% 5%;
+    margin: 0% 15% 0% 5%;
     color: #e5f7f9;
  }
+ 
+ #cmsComp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
  #cmsListe {
     color: #e5f7f9;
@@ -182,7 +188,7 @@ body {
 }
 
 #cmsLogo img {
-    max-width: 150px;
+    max-width: 100px;
     margin: 0;
 }
 
@@ -192,7 +198,7 @@ body {
 
 #projets h2 {
     color: #444c54;
-    margin: 0 15% 0 5%;
+    margin: 1% 15% 0 5%;
 }
 
 #projets a {
