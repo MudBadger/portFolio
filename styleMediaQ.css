@@ -62,39 +62,50 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: flex-stretch;
         padding-bottom: 5px;
+        background-color: #F7FFF7;
     }
     
 
     #javascript {
         display: flex;
         flex-direction: column;
-        margin: 0 0 3% 0;
+        align-items: center;
+        margin: 0 3% 3% 3%;
         padding: 0;
         border-bottom: 3% solid #e5f7f9;
+        border-radius: 5em;
     }
         
+
+    #jsComp {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-items: center;
+        margin: 0 6%;
+    }
     #jsTitre {
-         font-size: 0.7em;
-         margin: 0 3%;
-    }
-        
+        font-size: 0.7em;
+        margin: 0 3%;
+        text-align: center;
+   }
+
     #jsListe {
-        margin: 5% 0 8% 0;
+        margin: 0% 0% 8% 10%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
     } 
         
     #jsListe li {
-        margin-bottom: 10%;
         font-size: 0.7em;
     }
         
     #jsLogo img {
-        width: 70%;
+        width: 100%;
         display: flex;
         align-items: center;
         margin: 0;
@@ -104,17 +115,30 @@
     #cms {
         display: flex;
         flex-direction: column;
-        margin: 2% auto;
+        align-items: center;
+        margin: 0 3% 3% 3%;
         padding: 0;
+        border-radius: 5em;
+        box-shadow:5px 5px 3px #D7CDCC;
+
+    }
+
+    #cmsComp {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-items: center;
+        margin: 0 6%;
     }
         
     #cmsTitre {
         margin: 0 3%;
         font-size: 0.7em;
+        text-align: center;
     }
         
     #cmsListe {
-        margin: 5% 0 8% 0;
+         margin: 0% 0% 8% 10%;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -126,7 +150,7 @@
     }
         
     #cmsLogo img {
-        width: 50%;
+        width: 150%;
         display: flex;
         align-items: center;
         margin: 0 0 0 12%;

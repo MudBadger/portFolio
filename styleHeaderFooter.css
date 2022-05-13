@@ -36,8 +36,13 @@ header {
     color: #32405C;
 }
 
-a:hover {
+.menu a:hover {
     color: #246A73;
+}
+
+.menu p:hover {
+    color: #246A73;
+    border: 5px solid #246A73;
 }
 
 .menu p {
