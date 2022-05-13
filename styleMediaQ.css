@@ -35,7 +35,6 @@
     #devPhoto {
         max-width: 100%;
         border-radius: 5%;
-        box-shadow: 8px 8px 0px #4c6c7e;
         margin-right: 5% 15%;
     }
 
@@ -44,7 +43,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-evenly;
-        background-color: #4c6c7e;
+        background-color: #246A73;
     }
 
     #frontTitre, #backTitre {
