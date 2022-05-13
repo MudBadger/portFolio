@@ -194,4 +194,26 @@
     #mentionsLegales {
         font-size: 0.7em;
     }
+
+    /* Début du style de la page Contact*/
+
+    #contactTitre {
+        font-size: 1em;
+    }
+
+    #coordonnees {
+        font-size: 0.8em;
+        margin-left: 7%;
+    }
+
+    input, textarea {
+        font-size: 0.8em;
+    }
+
+    button {
+        font-size: 1em;
+    }
 }
+
+
+
